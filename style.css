@@ -1,0 +1,12 @@
+#image-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    object-fit: cover;
+}
