@@ -22,11 +22,11 @@ function loadImagesOnScroll() {
     }
 }
 
-// Carregue algumas imagens quando a página carregar inicialmente
+// Carregua algumas imagens quando a página carregar inicialmente
 for (let i = 0; i < 5; i++) {
     loadImage();
 }
 
 
-// Registre o evento de scroll
+// Registra o evento de scroll
 window.addEventListener('scroll', loadImagesOnScroll);
